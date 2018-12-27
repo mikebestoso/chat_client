@@ -4,7 +4,7 @@
 #It provides a function, send, which sends a text message
 #Currently send simply prints the message to console for debugging
 #Eventually, it will forward this message to the client(s) the message is intended for
-class ClientInterface:
+class ClientCommunicationInterface:
 
     def __init__(self,client_name,client_id):
         self.m_client_name = client_name

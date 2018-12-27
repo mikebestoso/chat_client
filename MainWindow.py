@@ -1,6 +1,6 @@
 import sys
 from PyQt5 import QtGui,QtWidgets
-from interface.Client import ClientInterface
+from interface.Client import ClientCommunicationInterface
 
 #Main GUI Window
 app = QtWidgets.QApplication(sys.argv)
@@ -15,7 +15,7 @@ window.show()
 
 
 #Create chat client interface here
-chat_client = ClientInterface("Default",1)
+chat_client = ClientCommunicationInterface("Default",1)
 chat_client.send("This is just a test message")
 sys.exit(app.exec_())
 
