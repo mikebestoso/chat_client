@@ -3,9 +3,10 @@ QWidget
         qproperty-geometry:rect(100 100 1000 600);
         min-width : 100;
         min-height : 100;
-        max-height : 500;
+        max-height : 1000;
         max-width : 500;
         background-color : #E3E4FA;
+        padding : 10px;
     }
 QPushButton
     {
@@ -47,4 +48,11 @@ QLabel
         font-size : 24px;
         font : bold;
         background-color: #AFEEEE;
+    }
+QTextEdit
+    {
+        padding : 100px;
+        background-color : white;
+        height : 100px;
+        width : 100px;
     }
